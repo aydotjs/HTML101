@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Sign up form</h1>
+<form action="#" method="POST" name="sign-up form">
+    <fieldset>
+        <legend align="center">Personal Information</legend>
+        <label for="jack">Name:</label> <input type="text" placeholder="Enter your name" id="jack" ><br><br>
+        <label for="password">Password:</label><input type="password" placeholder="Enter your Password" id="password"><br><br>
+         <label for="email">Email:</label><input type="email" placeholder="Enter your Email" id="email" ><br><br>
+        <p>Please, select your gender</p>
+        <input type="radio" name="gender" value="male" id="male" ><label for="male">Male</label><br><br>
+        <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label>
+    </fieldset>
+    <fieldset>
+        <legend align="center">Extra Info</legend>
+    <p>What course would you like to do?</p>
+    <input type="checkbox" name="courses" value="chemistry" >Chemistry<br><br>
+    <input type="checkbox" name="courses" value="biology" >Biology<br><br>
+    <input type="checkbox" name="courses" value="literature" >Lit<br><br>
+    <input type="checkbox" name="courses" value="government" >Gov<br><br>
+    <p>Tell us more about yourself</p>
+    <textarea rows="10" cols="40"></textarea><br>
+    <p>Tell us state of origin</p>
+    <select>
+        <optgroup label="South-West">
+            <option>Oyo</option>
+            <option>Lagos</option>
+            <option>Oyo</option>
+            <option>Lagos</option>
+            <option>Oyo</option>
+            <option>Lagos</option>
+        </optgroup>
+        <optgroup label="South-East">
+            <option>Imo</option>
+            <option>Abia</option>
+            <option>Imo</option>
+            <option>Abia</option>
+            <option>Imo</option>
+            <option>Abia</option>
+        </optgroup>
+    </select>
+    </fieldset>
+    
+    <input type="submit" value="Send Message">
+    <marquee scollamount="5" bgcolor="red">Hello</marquee>
+
+</form>
+</body>
+</html>
